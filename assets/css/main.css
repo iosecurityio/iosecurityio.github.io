@@ -1207,26 +1207,27 @@ h6, .h6 {
 
 .btn-primary {
   color: #fff;
-  background-color: #2e4bfd;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #021fd2;
-  border-color: #0219aa;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #021fd2;
-  border-color: #0219aa;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #021fd2;
-  border-color: #0219aa;
+  background-color: #c13434;
+  border-color: #c13434;
   background-image: none;
 }
 
@@ -1235,43 +1236,46 @@ h6, .h6 {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #021fd2;
-  border-color: #0219aa;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus {
-  background-color: #2e4bfd;
-  border-color: #2e4bfd;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-primary.disabled:hover, .btn-primary:disabled:hover {
-  background-color: #2e4bfd;
-  border-color: #2e4bfd;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-info {
   color: #fff;
-  background-color: #cfd6ff;
-  border-color: #cfd6ff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #788cff;
-  border-color: #5069ff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-info:focus, .btn-info.focus {
   color: #fff;
-  background-color: #788cff;
-  border-color: #5069ff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-info:active, .btn-info.active,
 .open > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #788cff;
-  border-color: #5069ff;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
   background-image: none;
 }
 
@@ -1280,18 +1284,20 @@ h6, .h6 {
 .open > .btn-info.dropdown-toggle:focus,
 .open > .btn-info.dropdown-toggle.focus {
   color: #fff;
-  background-color: #788cff;
-  border-color: #5069ff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info:disabled:focus, .btn-info:disabled.focus {
-  background-color: #cfd6ff;
-  border-color: #cfd6ff;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-info.disabled:hover, .btn-info:disabled:hover {
-  background-color: #cfd6ff;
-  border-color: #cfd6ff;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-success {
@@ -1343,27 +1349,27 @@ h6, .h6 {
 
 .btn-warning {
   color: #fff;
-  background-color: #ffda44;
-  border-color: #ffda44;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-warning:hover {
   color: #fff;
-  background-color: #ecbe00;
-  border-color: #c49d00;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-warning:focus, .btn-warning.focus {
   color: #fff;
-  background-color: #ecbe00;
-  border-color: #c49d00;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-warning:active, .btn-warning.active,
 .open > .btn-warning.dropdown-toggle {
   color: #fff;
-  background-color: #ecbe00;
-  border-color: #c49d00;
+  background-color: #c13434;
+  border-color: #c13434;
   background-image: none;
 }
 
@@ -1372,18 +1378,20 @@ h6, .h6 {
 .open > .btn-warning.dropdown-toggle:focus,
 .open > .btn-warning.dropdown-toggle.focus {
   color: #fff;
-  background-color: #ecbe00;
-  border-color: #c49d00;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning:disabled:focus, .btn-warning:disabled.focus {
-  background-color: #ffda44;
-  border-color: #ffda44;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-warning.disabled:hover, .btn-warning:disabled:hover {
-  background-color: #ffda44;
-  border-color: #ffda44;
+  color: #fff;
+  background-color: #c13434;
+  border-color: #c13434;
 }
 
 .btn-danger {
@@ -1928,6 +1936,7 @@ h6, .h6 {
 .parallax {
   background-attachment: fixed !important;
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   background-color: transparent;
   background-repeat: no-repeat;
