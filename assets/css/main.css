@@ -22,16 +22,20 @@ html {
 }
 
 body {
-  margin: 0;
+  background-image:url("../images/index.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0000 ;
 }
 
 body {
+  margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
-  color: #787878;
-  background-color: #fff;
 }
 
 p {
@@ -108,6 +112,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 
 .container::after {
