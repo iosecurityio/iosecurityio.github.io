@@ -85,22 +85,6 @@
       });
     },
 
-    getYoutubePlayer: function() {
-      $('[data-video="youtube"]').each(function() {
-        $(this).YTPlayer({
-          showControls: false
-        });
-      });
-    },
-
-    getVimeoPlayer: function() {
-      $('[data-video="vimeo"]').each(function() {
-        $(this).vimeo_player({
-          showControls: false
-        });
-      });
-    },
-
     init: function() {
       var self = this;
 
@@ -109,8 +93,6 @@
       }, 250);
 
       self.getSlick();
-      self.getYoutubePlayer();
-      self.getVimeoPlayer();
 
       window.addEventListener('resize', resizeDebounce);
     }
